@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1888D1A21FBFE7910005259D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1A11FBFE7910005259D /* AppDelegate.swift */; };
+		1888D1A91FBFE7920005259D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1888D1A81FBFE7920005259D /* Assets.xcassets */; };
+		1888D1AC1FBFE7920005259D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1888D1AA1FBFE7920005259D /* LaunchScreen.storyboard */; };
+		1888D1B71FBFE7920005259D /* WeEatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1B61FBFE7920005259D /* WeEatTests.swift */; };
+		1888D1C21FBFE7920005259D /* WeEatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1C11FBFE7920005259D /* WeEatUITests.swift */; };
+		1888D1D01FBFE86B0005259D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1CF1FBFE86B0005259D /* LoginViewController.swift */; };
+		1888D1D41FC14B9E0005259D /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1D31FC14B9E0005259D /* MainTabBarController.swift */; };
+		1888D1D61FC14BDE0005259D /* MyselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1D51FC14BDE0005259D /* MyselfViewController.swift */; };
+		1888D1D81FC14BEE0005259D /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1D71FC14BEE0005259D /* MessageViewController.swift */; };
+		1888D1DA1FC14BFD0005259D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1D91FC14BFD0005259D /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1888D1B31FBFE7920005259D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1888D1961FBFE7910005259D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1888D19D1FBFE7910005259D;
+			remoteInfo = WeEat;
+		};
+		1888D1BE1FBFE7920005259D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1888D1961FBFE7910005259D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1888D19D1FBFE7910005259D;
+			remoteInfo = WeEat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1888D19E1FBFE7910005259D /* WeEat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeEat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1888D1A11FBFE7910005259D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1888D1A81FBFE7920005259D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1888D1AB1FBFE7920005259D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1888D1AD1FBFE7920005259D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1888D1B21FBFE7920005259D /* WeEatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeEatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1888D1B61FBFE7920005259D /* WeEatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeEatTests.swift; sourceTree = "<group>"; };
+		1888D1B81FBFE7920005259D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1888D1BD1FBFE7920005259D /* WeEatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeEatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1888D1C11FBFE7920005259D /* WeEatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeEatUITests.swift; sourceTree = "<group>"; };
+		1888D1C31FBFE7920005259D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1888D1CF1FBFE86B0005259D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1888D1D31FC14B9E0005259D /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1888D1D51FC14BDE0005259D /* MyselfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyselfViewController.swift; sourceTree = "<group>"; };
+		1888D1D71FC14BEE0005259D /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		1888D1D91FC14BFD0005259D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1888D19B1FBFE7910005259D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1888D1AF1FBFE7920005259D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1888D1BA1FBFE7920005259D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1888D1951FBFE7910005259D = {
+			isa = PBXGroup;
+			children = (
+				1888D1A01FBFE7910005259D /* WeEat */,
+				1888D1B51FBFE7920005259D /* WeEatTests */,
+				1888D1C01FBFE7920005259D /* WeEatUITests */,
+				1888D19F1FBFE7910005259D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1888D19F1FBFE7910005259D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1888D19E1FBFE7910005259D /* WeEat.app */,
+				1888D1B21FBFE7920005259D /* WeEatTests.xctest */,
+				1888D1BD1FBFE7920005259D /* WeEatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1888D1A01FBFE7910005259D /* WeEat */ = {
+			isa = PBXGroup;
+			children = (
+				1888D1A11FBFE7910005259D /* AppDelegate.swift */,
+				1888D1A81FBFE7920005259D /* Assets.xcassets */,
+				1888D1AA1FBFE7920005259D /* LaunchScreen.storyboard */,
+				1888D1AD1FBFE7920005259D /* Info.plist */,
+				1888D1CF1FBFE86B0005259D /* LoginViewController.swift */,
+				1888D1D31FC14B9E0005259D /* MainTabBarController.swift */,
+				1888D1D51FC14BDE0005259D /* MyselfViewController.swift */,
+				1888D1D71FC14BEE0005259D /* MessageViewController.swift */,
+				1888D1D91FC14BFD0005259D /* MainViewController.swift */,
+			);
+			path = WeEat;
+			sourceTree = "<group>";
+		};
+		1888D1B51FBFE7920005259D /* WeEatTests */ = {
+			isa = PBXGroup;
+			children = (
+				1888D1B61FBFE7920005259D /* WeEatTests.swift */,
+				1888D1B81FBFE7920005259D /* Info.plist */,
+			);
+			path = WeEatTests;
+			sourceTree = "<group>";
+		};
+		1888D1C01FBFE7920005259D /* WeEatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1888D1C11FBFE7920005259D /* WeEatUITests.swift */,
+				1888D1C31FBFE7920005259D /* Info.plist */,
+			);
+			path = WeEatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1888D19D1FBFE7910005259D /* WeEat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1888D1C61FBFE7920005259D /* Build configuration list for PBXNativeTarget "WeEat" */;
+			buildPhases = (
+				1888D19A1FBFE7910005259D /* Sources */,
+				1888D19B1FBFE7910005259D /* Frameworks */,
+				1888D19C1FBFE7910005259D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeEat;
+			productName = WeEat;
+			productReference = 1888D19E1FBFE7910005259D /* WeEat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1888D1B11FBFE7920005259D /* WeEatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1888D1C91FBFE7920005259D /* Build configuration list for PBXNativeTarget "WeEatTests" */;
+			buildPhases = (
+				1888D1AE1FBFE7920005259D /* Sources */,
+				1888D1AF1FBFE7920005259D /* Frameworks */,
+				1888D1B01FBFE7920005259D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1888D1B41FBFE7920005259D /* PBXTargetDependency */,
+			);
+			name = WeEatTests;
+			productName = WeEatTests;
+			productReference = 1888D1B21FBFE7920005259D /* WeEatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1888D1BC1FBFE7920005259D /* WeEatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1888D1CC1FBFE7920005259D /* Build configuration list for PBXNativeTarget "WeEatUITests" */;
+			buildPhases = (
+				1888D1B91FBFE7920005259D /* Sources */,
+				1888D1BA1FBFE7920005259D /* Frameworks */,
+				1888D1BB1FBFE7920005259D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1888D1BF1FBFE7920005259D /* PBXTargetDependency */,
+			);
+			name = WeEatUITests;
+			productName = WeEatUITests;
+			productReference = 1888D1BD1FBFE7920005259D /* WeEatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1888D1961FBFE7910005259D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Wang;
+				TargetAttributes = {
+					1888D19D1FBFE7910005259D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					1888D1B11FBFE7920005259D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1888D19D1FBFE7910005259D;
+					};
+					1888D1BC1FBFE7920005259D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1888D19D1FBFE7910005259D;
+					};
+				};
+			};
+			buildConfigurationList = 1888D1991FBFE7910005259D /* Build configuration list for PBXProject "WeEat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1888D1951FBFE7910005259D;
+			productRefGroup = 1888D19F1FBFE7910005259D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1888D19D1FBFE7910005259D /* WeEat */,
+				1888D1B11FBFE7920005259D /* WeEatTests */,
+				1888D1BC1FBFE7920005259D /* WeEatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1888D19C1FBFE7910005259D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1888D1AC1FBFE7920005259D /* LaunchScreen.storyboard in Resources */,
+				1888D1A91FBFE7920005259D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1888D1B01FBFE7920005259D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1888D1BB1FBFE7920005259D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1888D19A1FBFE7910005259D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1888D1D61FC14BDE0005259D /* MyselfViewController.swift in Sources */,
+				1888D1D01FBFE86B0005259D /* LoginViewController.swift in Sources */,
+				1888D1A21FBFE7910005259D /* AppDelegate.swift in Sources */,
+				1888D1DA1FC14BFD0005259D /* MainViewController.swift in Sources */,
+				1888D1D41FC14B9E0005259D /* MainTabBarController.swift in Sources */,
+				1888D1D81FC14BEE0005259D /* MessageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1888D1AE1FBFE7920005259D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1888D1B71FBFE7920005259D /* WeEatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1888D1B91FBFE7920005259D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1888D1C21FBFE7920005259D /* WeEatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1888D1B41FBFE7920005259D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1888D19D1FBFE7910005259D /* WeEat */;
+			targetProxy = 1888D1B31FBFE7920005259D /* PBXContainerItemProxy */;
+		};
+		1888D1BF1FBFE7920005259D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1888D19D1FBFE7910005259D /* WeEat */;
+			targetProxy = 1888D1BE1FBFE7920005259D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1888D1AA1FBFE7920005259D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1888D1AB1FBFE7920005259D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1888D1C41FBFE7920005259D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1888D1C51FBFE7920005259D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1888D1C71FBFE7920005259D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeEat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wang.WeEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1888D1C81FBFE7920005259D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeEat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wang.WeEat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1888D1CA1FBFE7920005259D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeEatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wang.WeEatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeEat.app/WeEat";
+			};
+			name = Debug;
+		};
+		1888D1CB1FBFE7920005259D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeEatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wang.WeEatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeEat.app/WeEat";
+			};
+			name = Release;
+		};
+		1888D1CD1FBFE7920005259D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeEatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wang.WeEatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeEat;
+			};
+			name = Debug;
+		};
+		1888D1CE1FBFE7920005259D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeEatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wang.WeEatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeEat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1888D1991FBFE7910005259D /* Build configuration list for PBXProject "WeEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1888D1C41FBFE7920005259D /* Debug */,
+				1888D1C51FBFE7920005259D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1888D1C61FBFE7920005259D /* Build configuration list for PBXNativeTarget "WeEat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1888D1C71FBFE7920005259D /* Debug */,
+				1888D1C81FBFE7920005259D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1888D1C91FBFE7920005259D /* Build configuration list for PBXNativeTarget "WeEatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1888D1CA1FBFE7920005259D /* Debug */,
+				1888D1CB1FBFE7920005259D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1888D1CC1FBFE7920005259D /* Build configuration list for PBXNativeTarget "WeEatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1888D1CD1FBFE7920005259D /* Debug */,
+				1888D1CE1FBFE7920005259D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1888D1961FBFE7910005259D /* Project object */;
+}
