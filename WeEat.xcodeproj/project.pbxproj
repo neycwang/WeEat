@@ -17,6 +17,9 @@
 		1888D1D61FC14BDE0005259D /* MyselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1D51FC14BDE0005259D /* MyselfViewController.swift */; };
 		1888D1D81FC14BEE0005259D /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1D71FC14BEE0005259D /* MessageViewController.swift */; };
 		1888D1DA1FC14BFD0005259D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888D1D91FC14BFD0005259D /* MainViewController.swift */; };
+		18E8A4F51FC53C39009EA712 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8A4F31FC53C39009EA712 /* AddFriendViewController.swift */; };
+		18E8A4F61FC53C39009EA712 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8A4F41FC53C39009EA712 /* FriendTableViewCell.swift */; };
+		18E8A4F81FC54751009EA712 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E8A4F71FC54751009EA712 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		1888D1D51FC14BDE0005259D /* MyselfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyselfViewController.swift; sourceTree = "<group>"; };
 		1888D1D71FC14BEE0005259D /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		1888D1D91FC14BFD0005259D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		18E8A4F31FC53C39009EA712 /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		18E8A4F41FC53C39009EA712 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		18E8A4F71FC54751009EA712 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +114,11 @@
 				1888D1AA1FBFE7920005259D /* LaunchScreen.storyboard */,
 				1888D1AD1FBFE7920005259D /* Info.plist */,
 				1888D1CF1FBFE86B0005259D /* LoginViewController.swift */,
+				18E8A4F71FC54751009EA712 /* RegisterViewController.swift */,
 				1888D1D31FC14B9E0005259D /* MainTabBarController.swift */,
 				1888D1D51FC14BDE0005259D /* MyselfViewController.swift */,
+				18E8A4F31FC53C39009EA712 /* AddFriendViewController.swift */,
+				18E8A4F41FC53C39009EA712 /* FriendTableViewCell.swift */,
 				1888D1D71FC14BEE0005259D /* MessageViewController.swift */,
 				1888D1D91FC14BFD0005259D /* MainViewController.swift */,
 			);
@@ -267,12 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E8A4F81FC54751009EA712 /* RegisterViewController.swift in Sources */,
 				1888D1D61FC14BDE0005259D /* MyselfViewController.swift in Sources */,
+				18E8A4F51FC53C39009EA712 /* AddFriendViewController.swift in Sources */,
 				1888D1D01FBFE86B0005259D /* LoginViewController.swift in Sources */,
 				1888D1A21FBFE7910005259D /* AppDelegate.swift in Sources */,
 				1888D1DA1FC14BFD0005259D /* MainViewController.swift in Sources */,
 				1888D1D41FC14B9E0005259D /* MainTabBarController.swift in Sources */,
 				1888D1D81FC14BEE0005259D /* MessageViewController.swift in Sources */,
+				18E8A4F61FC53C39009EA712 /* FriendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

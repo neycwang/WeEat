@@ -58,7 +58,7 @@ class LoginViewController: UIViewController {
     }
     
     @objc func register() {
-        //TODO
+        navigationController?.pushViewController(RegisterViewController(), animated: true)
     }
     
     @objc func login() {

@@ -39,6 +39,7 @@ class MyselfViewController: UIViewController {
         addButton.titleLabel?.font = mainTextFont
         addButton.setTitleColor(.black, for: .normal)
         addButton.setTitleColor(.gray, for: .highlighted)
+        addButton.addTarget(self, action: #selector(addFriend), for: .touchUpInside)
         view.addSubview(addButton)
         
         settingsButton = UIButton(frame: CGRect(x: width - 50, y: 0, width: 50, height: height * 0.08))
@@ -101,4 +102,7 @@ class MyselfViewController: UIViewController {
         newFriendView.addSubview(newFriendLabel)
     }
 
+    @objc func addFriend() {
+        navigationController?.pushViewController(AddFriendViewController(), animated: true)
+    }
 }
